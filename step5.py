@@ -1,4 +1,4 @@
-from plum_config import plum_url, auth_header, training_data_destination
+from config import plum_url, auth_header, training_data_destination
 
 import requests
 import json

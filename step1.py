@@ -1,5 +1,4 @@
-from plum_config import input_output_file, plum_url, auth_header
-
+from config import input_output_file, plum_url, auth_header
 
 import requests
 import json

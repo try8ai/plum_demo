@@ -1,9 +1,8 @@
-from plum_config import plum_url, auth_header, input_output_file
+from config import plum_url, auth_header, input_output_file
 
 import requests
 import json
 
-# Step 2: Generate metric definitions based on your system prompt
 with open(input_output_file, 'r') as f:
     system_prompt = json.load(f)['system_prompt']
 
