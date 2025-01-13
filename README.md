@@ -83,8 +83,6 @@ This will create a file `train.jsol`
 3. Upload new training data.
 4. Optional: Select “Upload new” validation data. Drag your validation `.jsonl` file to upload.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/bd57b34c-f3e4-4e0e-8669-8426110fd845/c8731db1-e482-41cd-9fda-6ce497ecdab8/image.png)
-
 After around 15 minutes, the fine-tuning run completes, and OpenAI will provide a customized model ID that you can start using.
 
 **Congratulations!** You’ve completed one round of fine-tuning using Plum AI.
