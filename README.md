@@ -30,7 +30,7 @@ We will start by uploading our data.
 <button data-command="open:step1.py">Examine `Step 1`</button>
 
 Lets upload the data now:
-<button data-command="run:python3.12 step1.py">Run `Step 1: Upload Data`</button>
+<button data-command="run:python3.12 step1.py; read">Run `Step 1: Upload Data`</button>
 
 This will return a dataset ID which will be used later on.  Our script will store this ID in a file called `ids.json`.
 
@@ -40,7 +40,7 @@ The ability to evaluate your model comes from well-defined metrics. Plum creates
 <button data-command="open:step2.py">Examine `Step 2`</button>
 
 Lets generate metric definitions based updon the system prompt:
-<button data-command="run:python3.12 step2.py">Run `Step 2: Generate Metric Definitions`</button>
+<button data-command="run:python3.12 step2.py; read">Run `Step 2: Generate Metric Definitions`</button>
 
 This will return a metrics ID which will be stored in the `ids.json` file.
 
@@ -50,7 +50,7 @@ Plum returns a score for each of the criteria defined in the previous step. Thes
 <button data-command="open:step3.py">Examine `Step 3`</button>
 
 Let's run the evaluation:
-<button data-command="run:python3.12 step3.py">Run `Step 3: Evaluation`</button>
+<button data-command="run:python3.12 step3.py; read">Run `Step 3: Evaluation`</button>
 
 These evaluation results will be used in the next step. Plum’s goal is to boost the lowest of these scores.
 
@@ -64,7 +64,7 @@ Adjust the `multiple` to adjust the size of the dataset you would like to genera
 You will need at least 50-100 examples, so set the `multiple` accordingly.
 
 Let's generate the synthetic data:
-<button data-command="run:python3.12 step4.py">Run `Step 4: Generate Synthetic Data`</button>
+<button data-command="run:python3.12 step4.py; read">Run `Step 4: Generate Synthetic Data`</button>
 
 ## Step 5
 
@@ -72,7 +72,7 @@ We can now download the synthetic data in a format that OpenAI’s fine-tuning U
 <button data-command="open:step5.py">Examine `Step 5`</button>
 
 Lets download the data:
-<button data-command="run:python3.12 step5.py">Run `Step 5`</button>
+<button data-command="run:python3.12 step5.py; read">Run `Step 5`</button>
 
 This will create a file `train.jsol`
 
